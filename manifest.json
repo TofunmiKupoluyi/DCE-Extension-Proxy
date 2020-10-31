@@ -1,0 +1,15 @@
+{
+    "name": "Capstone Proxy",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+      "permissions": [
+        "webRequest",
+        "http://*/*", 
+        "https://*/*",
+        "webRequestBlocking"],
+    "manifest_version": 2
+  }
